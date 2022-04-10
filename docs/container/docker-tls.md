@@ -76,7 +76,7 @@ systemctl restart docker.service
 
 #### 生成效果图
 
-![asd](../_images/Snipaste_2021-09-08_07-51-15.png)
+![效果图](../_images/Snipaste_2021-09-08_07-51-15.png)
 
 > 将`ca.pem`, `key.pem`, `cert.pem`拷贝到客户端
 

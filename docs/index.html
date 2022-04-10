@@ -23,6 +23,10 @@
       padding: 40px 15px 40px;
       position: relative
     }
+
+    figure {
+      text-align: center
+    }
   </style>
 </head>
 
@@ -37,6 +41,17 @@
       loadSidebar: true,
       coverpage: true,
       search: 'auto',
+      markdown: {
+        renderer: {
+          image: function (href, title, text) {
+            // 按照原来的渲染 img
+            var image_html = this.origin.image.apply(this, arguments)
+            // 用 figure 包一下图片，实现居中
+            return '<figure>' + image_html + '<figcaption>' + text +
+              '</figcaption></figure>'
+          }
+        }
+      },
       alias: {
         '.*/_navbar.md': '_navbar.md',
         '.*/_sidebar.md': '_sidebar.md',
