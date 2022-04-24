@@ -7,5 +7,12 @@
 
 - Spring系列
   - [Feign](spring/feign.md)
+
+- Linux
+  - [Shell](linux/shell.md)
+
+- Mysql
+  - [Mysql](mysql/insertData.md)
+
 - 书单
   - [2021](book/2021.md)
