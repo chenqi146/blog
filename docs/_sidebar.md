@@ -12,7 +12,7 @@
   - [Shell](linux/shell.md)
 
 - Mysql
-  - [Mysql](mysql/insertData.md)
+  - [快速插入数据](mysql/insertData.md)
 
 - 书单
   - [2021](book/2021.md)
