@@ -8,6 +8,9 @@
 - Spring系列
   - [Feign](spring/feign.md)
 
+- Java
+  - [类加载](java/classloader.md)
+
 - Linux
   - [Shell](linux/shell.md)
 
