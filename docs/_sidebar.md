@@ -19,3 +19,7 @@
 
 - 书单
   - [2021](book/2021.md)
+
+- 酒
+  - [Mojito](liquor/mojito.md)
+
