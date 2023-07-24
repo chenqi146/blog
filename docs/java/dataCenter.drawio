@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T12:47:05.041Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="BsHsX3zBY8rM2-9kXyh-" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-24T12:58:29.684Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="mTu0DbwclcdZ9-cgohcT" version="21.6.5" type="github" pages="2">
   <diagram name="总体设计" id="ryRMONgh2g4YDS1a8t3J">
     <mxGraphModel dx="2420" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -205,9 +205,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PvHFU-CTbL9CK4LDVLUQ-56" value="提交任务" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.432;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PvHFU-CTbL9CK4LDVLUQ-57" target="PvHFU-CTbL9CK4LDVLUQ-50">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="960" as="sourcePoint" />
+        <mxCell id="PvHFU-CTbL9CK4LDVLUQ-56" value="建模提交任务" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="PvHFU-CTbL9CK4LDVLUQ-50">
+          <mxGeometry x="0.0039" relative="1" as="geometry">
+            <mxPoint x="30" y="941" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="30" y="1040" />
+              <mxPoint x="125" y="1040" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PvHFU-CTbL9CK4LDVLUQ-55" value="其他模块服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -264,6 +269,14 @@
         <mxCell id="PvHFU-CTbL9CK4LDVLUQ-68" value="标签模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-210" y="1105" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Hcy-A_yGpwws1a3W59oW" name="第 2 页">
+    <mxGraphModel dx="1434" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
