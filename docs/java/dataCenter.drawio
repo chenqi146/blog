@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T09:29:04.761Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="RcX7n4i5Il9rRs6nhKvj" version="21.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-03T09:32:18.225Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6-semRE0UyWAQgoZl9cz" version="21.6.6" type="github" pages="2">
   <diagram name="总体设计" id="ryRMONgh2g4YDS1a8t3J">
     <mxGraphModel dx="2261" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,11 +7,24 @@
         <mxCell id="PvHFU-CTbL9CK4LDVLUQ-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="-430" y="1090" width="1240" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="PvHFU-CTbL9CK4LDVLUQ-59" value="订阅" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PvHFU-CTbL9CK4LDVLUQ-57" target="PvHFU-CTbL9CK4LDVLUQ-58" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PvHFU-CTbL9CK4LDVLUQ-59" value="订阅/拉取" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PvHFU-CTbL9CK4LDVLUQ-57" target="PvHFU-CTbL9CK4LDVLUQ-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="968" />
+              <mxPoint x="190" y="968" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DdPbdOL3YVelSkthv5l_-7" value="建模提交任务" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.282;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PvHFU-CTbL9CK4LDVLUQ-57" target="PvHFU-CTbL9CK4LDVLUQ-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="960" />
+              <mxPoint x="-80" y="960" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="PvHFU-CTbL9CK4LDVLUQ-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="-50" y="740" width="280" height="200" as="geometry" />
+          <mxGeometry x="-60" y="630" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="PvHFU-CTbL9CK4LDVLUQ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PvHFU-CTbL9CK4LDVLUQ-16" target="PvHFU-CTbL9CK4LDVLUQ-58" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -162,18 +175,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PvHFU-CTbL9CK4LDVLUQ-56" value="建模提交任务" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="PvHFU-CTbL9CK4LDVLUQ-50" edge="1">
-          <mxGeometry x="0.0039" relative="1" as="geometry">
-            <mxPoint x="30" y="941" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="30" y="1040" />
-              <mxPoint x="125" y="1040" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="PvHFU-CTbL9CK4LDVLUQ-55" value="其他模块服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PvHFU-CTbL9CK4LDVLUQ-47" value="数据中台web" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-430" y="1090" width="90" height="30" as="geometry" />
@@ -201,10 +204,10 @@
         <mxCell id="PvHFU-CTbL9CK4LDVLUQ-51" value="数据指标管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="1105" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PvHFU-CTbL9CK4LDVLUQ-65" value="推送/拉取" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PvHFU-CTbL9CK4LDVLUQ-58" target="PvHFU-CTbL9CK4LDVLUQ-57" edge="1">
+        <mxCell id="PvHFU-CTbL9CK4LDVLUQ-65" value="推送" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PvHFU-CTbL9CK4LDVLUQ-58" target="PvHFU-CTbL9CK4LDVLUQ-57" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="280" y="840" />
+              <mxPoint x="280" y="730" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -214,11 +217,11 @@
         <mxCell id="PvHFU-CTbL9CK4LDVLUQ-60" value="数据血缘管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="1105" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PvHFU-CTbL9CK4LDVLUQ-67" value="1. 代码形式&lt;br&gt;2. sql形式" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
+        <mxCell id="PvHFU-CTbL9CK4LDVLUQ-67" value="代码形式" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
           <mxGeometry x="330" y="1301" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SKs566gwwqL2imy3KGl5-1" value="离线计算引擎-待定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="900" y="1250.5" width="220" height="329.5" as="geometry" />
+          <mxGeometry x="1430" y="1255.25" width="220" height="329.5" as="geometry" />
         </mxCell>
         <mxCell id="DdPbdOL3YVelSkthv5l_-1" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="630" y="1660" width="380" height="220" as="geometry" />
